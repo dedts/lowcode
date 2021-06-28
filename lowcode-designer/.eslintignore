@@ -1,0 +1,7 @@
+build/*.js
+config/*.js
+dist/
+public/
+src/lib/
+node_modules/
+!/lowcode.iml

@@ -1,0 +1,51 @@
+
+// Brand Color 主题色
+$primaryColor:    #7F4CB3;
+
+// Functional Color 提示颜色
+$successColor:    #67C23A;
+$warningColor:    #E6A23C;
+$dangerColor:     #F56C6C;
+$infoColor:       #909399;
+
+// Font Color  文字颜色
+$textPrimary:     #303133;
+$textRegular:     #606266;
+$textSecondary:   #909399;
+$textPlaceholder: #C0C4CC;
+
+// Border Color 边框颜色
+$borderBase:      #DCDFE6;
+$borderLight:     #E4E7ED;
+$borderlighter:   #EBEEF5;
+$borderExtraLight:#F2F6FC;
+
+// Background Color 背景颜色
+$bgWhite:         #FFFFFF;
+$bgBlack:         #000000;
+$bgBase:          #F5F7FA;
+
+// Sidebar 菜单颜色
+$menuText:#bfcbd9;
+$menuActiveText:#ffffff;
+$subMenuActiveText:#bfcbd9; //https://github.com/ElemeFE/element/issues/12951
+$menuBg:#242329;
+$menuHover:#6E36A8;
+$subMenuBg:#6E36A8;
+$subMenuHover:#60239F;
+
+// Components size 组件尺寸
+$sideBarWidth: 180px;
+
+
+// the :export directive is the magic sauce for webpack
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
